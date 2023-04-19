@@ -2,10 +2,50 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* INIZIO HEADER  */
+.container-header{
+
+}
+/* #0061ff */
 /* FINE HEADER */
+
+.row-header{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-50{
+    width: calc(100% / 2);
+    padding: 20px;
+}
+
+.content-left{
+    display: flex;
+}
+
+.content-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.carateristiche-link{
+    padding-left: 50px;
+    text-decoration: none;
+    color: rgb(40, 38, 38);
+}
+
+.button-blu{
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #0061FF;
+    border: none;
+    color: #fff;
+}
 
 /* INIZIO MAIN */
 /* FINE MAIN */
