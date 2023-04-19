@@ -6,11 +6,6 @@
 }
 
 /* INIZIO HEADER  */
-.container-header{
-
-}
-/* #0061ff */
-/* FINE HEADER */
 
 .row-header{
     display: flex;  
@@ -20,7 +15,7 @@
 
 .col-50{
     width: calc(100% / 2);
-    padding: 20px;
+    padding: 15px;
 }
 
 .content-left{
@@ -33,21 +28,87 @@
     align-items: center;
 }
 
-.carateristiche-link{
-    padding-left: 50px;
+.caratteristiche-link{
+    padding-left: 40px;
     text-decoration: none;
     color: rgb(40, 38, 38);
+    font-size: 15px;
 }
 
 .button-blu{
-    margin-left: 50px;
+    margin-left: 40px;
     padding: 10px 20px;
     background-color: #0061FF;
     border: none;
     color: #fff;
 }
+/* FINE HEADER */
+
 
 /* INIZIO MAIN */
+/* INIZIO SEZIONE 1 */
+.jumbotron{
+    background-color: #b4d0e7;
+}
+
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row1 , .row2{
+    width: 100%;
+    display: flex;
+}
+
+
+.col-100{
+    width: 100%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+    position: relative;
+    right: 0;
+}
+
+h1{
+    font-size: 80px;
+    padding: 50px 0px;
+}
+
+.col-30 .button-blu{
+    font-size: 15px;
+    margin: 30px 0;
+    display: block;
+}
+
+#img-jumbo{
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.style-p , .font-span{
+    font-size: 15px;
+}
+
+.mod-span{
+    display: block;
+}
+
+.down-arrow{
+    font-size: 20px;
+    margin: 95px 0 20px 0;
+}
+
+
+
+/* FINE SEZIONE 1 */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
