@@ -35,12 +35,15 @@
     font-size: 15px;
 }
 
-.button-blu{
+.button-header{
     margin-left: 40px;
-    padding: 10px 20px;
+}
+
+.button-blu{
     background-color: #0061FF;
     border: none;
     color: #fff;
+    padding: 10px 20px;
 }
 /* FINE HEADER */
 
@@ -106,9 +109,122 @@ h1{
     margin: 95px 0 20px 0;
 }
 
-
-
 /* FINE SEZIONE 1 */
+
+/* INIZIO SEZIONE 2 */
+.container-55{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.row-section-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* INIZIO PRIMA COL 100 */
+
+.content-col{
+    width: 100%;
+}
+
+.modifiche-text{
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.input-style{
+    margin: 60px 5px 60px 0;
+}
+
+.input-right{
+    margin-left: 50px;
+}
+
+/* FINE PRIMA COL 100 */
+
+/* INIZIO COL 33 */
+
+.col-33{
+    width: calc(100% / 3 - 37px);
+    border: 1px solid lightgray;
+}
+
+.top-col{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 30px 0 40px 0;
+}
+
+.h3-style{
+    font-size: 28px;
+    padding: 25px 0 20px 0;
+}
+
+.li-style{
+    display: flex;
+    padding: 10px 0;
+}
+
+hr{
+    width: 20%;
+    margin: 40px 0;
+}
+
+.span-link{
+    padding-top: 30px;
+}
+
+.inside-col-padding{
+    padding: 0 25px;
+}
+
+.icon-mod{
+    padding-right: 5px;
+}
+
+.font-style{
+    font-size: 15px;
+}
+
+.button-col{
+    width: 100%;
+}
+/* FINE COL 33 */
+
+/* INIZIO SECONDA COL 100 */
+.border-col-100{
+    border:1px solid lightgray;
+    margin-top: 50px;
+}
+
+.row-inside-col{
+    display: flex;
+    padding: 30px;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.setting-paragraph{
+    padding-top: 50px;
+    font-size: 15px;
+}
+/* FINE SECONDA COL 100 */
+
+/* FINE SEZIONE 2 */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
