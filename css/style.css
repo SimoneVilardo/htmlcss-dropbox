@@ -388,6 +388,27 @@ hr{
 }
 /* FINE SEZIONE 7 */
 
+/* INIZIO SEZIONE 8 */
+#modifiche-h2-stile{
+    border-bottom: 1px solid black;
+    padding: 150px 0 60px 0;
+}
+
+.h4-style{
+    font-size: 20px;
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.position-icon-section-8{
+    position: absolute;
+    right: 40px;
+}
+
+
+/* FINE SEZIONE 8 */
+
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
