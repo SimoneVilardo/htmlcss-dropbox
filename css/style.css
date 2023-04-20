@@ -8,9 +8,15 @@
 /* INIZIO HEADER  */
 
 .row-header{
+    width: 100%;
     display: flex;  
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fff;
 }
 
 .col-50{
@@ -44,6 +50,10 @@
     border: none;
     color: #fff;
     padding: 10px 20px;
+}
+
+#space-top-jumbotron{
+    padding-top: 100px;
 }
 /* FINE HEADER */
 
@@ -204,6 +214,10 @@ hr{
 
 .button-col{
     width: 100%;
+}
+
+.color-grey-font{
+    color: grey;
 }
 /* FINE COL 33 */
 
