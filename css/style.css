@@ -136,7 +136,7 @@ h1{
 }
 
 .modifiche-text{
-    font-size: 40px;
+    font-size: 45px;
     padding-bottom: 50px;
 }
 
@@ -223,13 +223,7 @@ hr{
     font-size: 15px;
 }
 
-.col-60{
-    width: 60%;
-}
 
-.col-40{
-    width: 40%;
-}
 /* FINE SECONDA COL 100 */
 
 /* FINE SEZIONE 2 */
@@ -256,11 +250,21 @@ hr{
 /* FINE SESSIONE 3 */
 
 /* INIZIO SEZIONE 4 */
-.padding-col{
-    padding-top: 30px;
+.padding-col-row{
+    margin-top: 100px;
 }
 
 /* FINE SEZIONE 4 */
+
+/* INIZIO SEZIONE 5 */
+.col-60{
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
+}
+/* FINE SEZIONE 5 */
 
 /* INIZIO SEZIONE 6 */
 .container-section-6{
@@ -358,6 +362,31 @@ hr{
 }
 /* FINE SEZIONE COLORI BACKGROUND */
 /* FINE SEZIONE 6 */
+
+/* INIZIO SEZIONE 7 */
+
+.color-text-section7{
+    color: rgb(97, 8, 43);
+    font-size: 35px;
+}
+
+.button-section-7{
+    padding: 7px 25px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 105px;
+}
+
+.position-button6{
+    position: relative;
+}
+
+.padding-col-50-6{
+    padding: 100px 0;
+}
+/* FINE SEZIONE 7 */
 
 /* FINE MAIN */
 
