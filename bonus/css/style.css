@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* INIZIO HEADER  */
+
+.row-header{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.col-50{
+    width: calc(100% / 2);
+    padding: 15px;
+}
+
+.content-left{
+    display: flex;
+}
+
+.content-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.caratteristiche-link{
+    padding-left: 40px;
+    text-decoration: none;
+    color: rgb(40, 38, 38);
+    font-size: 15px;
+}
+
+.button-header{
+    margin-left: 40px;
+}
+
+.button-blu{
+    background-color: #0061FF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#space-top-jumbotron{
+    padding-top: 100px;
+}
+/* FINE HEADER */
+
+
+/* INIZIO MAIN */
+/* INIZIO SEZIONE 1 */
+.jumbotron{
+    background-color: #b4d0e7;
+}
+
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row1 , .row2{
+    width: 100%;
+    display: flex;
+}
+
+
+.col-100{
+    width: 100%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+h1{
+    font-size: 80px;
+    padding: 50px 0px;
+    font-weight: bold;
+}
+
+.col-30 .button-blu{
+    font-size: 15px;
+    margin: 30px 0;
+    display: block;
+}
+
+.img-position{
+    position: relative;
+}
+
+#img-jumbo{
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.style-p , .font-span{
+    font-size: 15px;
+}
+
+.mod-span{
+    display: block;
+}
+
+.down-arrow{
+    font-size: 20px;
+    margin: 95px 0 20px 0;
+}
+
+/* FINE SEZIONE 1 */
+
+/* INIZIO SEZIONE 2 */
+.container-55{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.row-section-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* INIZIO PRIMA COL 100 */
+.content-col-100{
+    padding-top: 150px;
+}
+.content-col{
+    width: 100%;
+}
+
+.modifiche-text{
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.input-style{
+    margin: 60px 5px 60px 0;
+}
+
+
+
+/* FINE PRIMA COL 100 */
+
+/* INIZIO COL 33 */
+
+.col-33{
+    width: calc(100% / 3 - 30px);
+}
+
+.border-col{
+    border: 1px solid lightgray;
+}
+
+.top-col{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 30px 0 40px 0;
+}
+
+.h3-style{
+    font-size: 28px;
+    padding: 25px 0 20px 0;
+}
+
+.li-style{
+    display: flex;
+    padding: 10px 0;
+}
+
+hr{
+    width: 20%;
+    margin: 40px 0;
+}
+
+.span-link{
+    padding-top: 30px;
+}
+
+.inside-col-padding{
+    padding: 0 25px;
+}
+
+.icon-mod{
+    padding-right: 5px;
+}
+
+.font-style{
+    font-size: 16px;
+}
+
+.button-col{
+    width: 100%;
+}
+
+.color-grey-font{
+    color: grey;
+}
+/* FINE COL 33 */
+
+/* INIZIO SECONDA COL 100 */
+.border-col-100{
+    border:1px solid lightgray;
+    margin-top: 50px;
+}
+
+.row-inside-col{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.setting-paragraph{
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+/* STYLE BUTTON CUSTOM */
+ /* The container  */
+.container-radio {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-bottom: 50px;
+}
+
+/* Hide the browser's default radio button  */
+.container-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button  */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+ /* On mouse-over, add a grey background color  */
+.container-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background  */
+.container-radio input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked)  */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+ /* Show the indicator (dot/circle) when checked  */
+.container-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+ /* Style the indicator (dot/circle)  */
+.container-radio .checkmark:after {
+    top: 6px;
+   left: 6px;
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;
+   background: white;
+}
+
+.input-right{
+    margin-left: 50px;
+}
+/* FINE STYLE BUTTON CUSTOM */
+
+/* FINE SECONDA COL 100 */
+
+/* FINE SEZIONE 2 */
+
+/* INIZO SESSIONE 3 */
+.margin-row1{
+    margin: 150px 0;
+}
+
+.content-col-40{
+    padding: 50px 20px 0 50px;
+}
+
+.structure-img{
+    max-width: 100%;
+}
+
+.white-button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+/* FINE SESSIONE 3 */
+
+/* INIZIO SEZIONE 4 */
+.padding-col-row{
+    margin-top: 100px;
+}
+
+/* FINE SEZIONE 4 */
+
+/* INIZIO SEZIONE 5 */
+.col-60{
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
+}
+/* FINE SEZIONE 5 */
+
+/* INIZIO SEZIONE 6 */
+.container-section-6{
+    width: 100%;
+}
+.row-section-6{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .col-33-2{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+ }
+
+
+
+.row-inside-col-33-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50-2{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.caratteristiche-img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    filter: brightness(0) invert(1);
+}
+
+.content-grey-section6{
+    background-color: #f5f5f5;
+    padding: 50px;    
+}
+
+#designit-small{
+    width: 50%;
+}
+
+#mod-span-section6{
+    margin-top: 50px;
+}
+/* INIZIO SEZIONE COLORI BACKGROUND */
+.second-color{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(162, 211, 155);
+}
+
+#col1{
+    background-color: rgb(196, 206, 186);
+    padding: 20px;
+}
+
+#col2{
+    background-color: rgb(97, 8, 43);
+}
+
+#col3{
+    background-color: rgb(0, 147, 206);
+}
+
+#col4{
+    background-color: rgb(255, 28, 28);
+}
+
+#col5{
+    background-color: rgb(213, 0, 31);
+}
+
+#col6{
+    background-color: rgb(180, 208, 231);
+}
+
+#col7{
+    background-color: rgb(13, 36, 129); 
+}
+
+#col8{
+    background-color: rgb(255, 216, 48);
+}
+/* FINE SEZIONE COLORI BACKGROUND */
+/* FINE SEZIONE 6 */
+
+/* INIZIO SEZIONE 7 */
+
+.color-text-section7{
+    color: rgb(97, 8, 43);
+    font-size: 35px;
+}
+
+.button-section-7{
+    padding: 7px 25px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 105px;
+}
+
+.position-button6{
+    position: relative;
+}
+
+.padding-col-50-6{
+    padding: 100px 0;
+}
+/* FINE SEZIONE 7 */
+
+/* INIZIO SEZIONE 8 */
+#modifiche-h2-stile{
+    border-bottom: 1px solid black;
+    padding: 150px 0 60px 0;
+}
+
+.h4-style{
+    font-size: 20px;
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.position-icon-section-8{
+    position: absolute;
+    right: 40px;
+}
+
+
+/* FINE SEZIONE 8 */
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+.background-black{
+    background-color: black;
+    margin-top: 150px;
+}
+.container-70{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-20{
+    width: calc(100% / 5);
+    padding: 50px 0;
+}
+
+.content-col-footer{
+    color: #fff;
+}
+
+.spacing-ul{
+    line-height: 40px;
+}
+
+.footer-h4-style{
+    font-size: 30px;
+    padding-bottom: 20px;
+} 
+
+#small-line-footer{
+    color: #fff;
+    width: 10%;
+}
+.lenguage{
+    color: #ffffffa1;
+    padding-bottom: 40px;
+}
+
+#space-lenguage{
+    margin: 0 5px;
+}
+
+/* FINE FOOTER */
